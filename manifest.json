@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitHub Actions issue link",
-  "version": "1.0",
+  "version": "0.1.0",
   "description": "Add link to issue to GitHub Actions page",
   "icons": {
     "16": "images/icon-16.png",
