@@ -6,7 +6,7 @@ function replaceIssueLink(url) {
   }
 
   const text = span.textContent;
-  const m = text.match(/ #(\d+) /);
+  const m = text.match(/#(\d+)/);
 
   if (!m) {
     return;
