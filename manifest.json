@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Actions issue link",
+  "version": "1.0",
+  "description": "Add link to issue to GitHub Actions page",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://github.com/*/*/actions/runs/*"
+  ]
+}
