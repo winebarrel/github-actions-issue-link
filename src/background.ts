@@ -1,4 +1,4 @@
-function replaceIssueLink(url) {
+export function replaceIssueLink(url: string) {
   const span = document.querySelector("h3.PageHeader-title > span > span");
 
   if (!span) {
@@ -6,6 +6,11 @@ function replaceIssueLink(url) {
   }
 
   const text = span.textContent;
+
+  if (!text) {
+    return;
+  }
+
   const m = text.match(/#(\d+)/);
 
   if (!m) {
@@ -26,7 +31,7 @@ chrome.tabs.onUpdated.addListener(async (tabId, props, tab) => {
   ) {
     chrome.scripting.executeScript({
       target: { tabId },
-      function: replaceIssueLink,
+      func: replaceIssueLink,
       args: [tab.url],
     });
   }
