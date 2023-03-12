@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "npm run clean && tsc && vite build",
     "zip": "npm run build && cd dist && zip -r ../github-actions-issue-link.zip .",
