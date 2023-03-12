@@ -12,10 +12,6 @@
   "background": {
     "service_worker": "src/background.ts"
   },
-  "permissions": [
-    "scripting"
-  ],
-  "host_permissions": [
-    "https://github.com/*/*/actions/runs/*"
-  ]
+  "permissions": ["scripting"],
+  "host_permissions": ["https://github.com/*/*/actions/runs/*"]
 }
