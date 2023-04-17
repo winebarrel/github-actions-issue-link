@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.16",
-    "@types/chrome": "^0.0.228",
+    "@types/chrome": "^0.0.231",
     "npm-watch": "^0.11.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4",
