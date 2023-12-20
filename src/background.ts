@@ -1,5 +1,5 @@
 export function replaceIssueLink(url: string) {
-  const span = document.querySelector("h3.PageHeader-title > span > span");
+  const span = document.querySelector(".PageHeader-title > span > span");
 
   if (!span) {
     return;
