@@ -22,8 +22,8 @@
     "@crxjs/vite-plugin": "^2.4.0",
     "@types/chrome": "^0.1.40",
     "npm-watch": "^0.13.0",
-    "prettier": "^3.8.2",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.8"
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.9"
   }
 }
